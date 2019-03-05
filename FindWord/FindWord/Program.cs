@@ -24,7 +24,7 @@ namespace FindWord
             }
             while (word != wordToFind);
 
-            Console.WriteLine("\n" + i + "\n");
+            Console.WriteLine("\n"+"This word is number " + i + "\n");
             Console.ReadLine();
         }
     }
