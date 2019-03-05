@@ -20,7 +20,7 @@ namespace FindWord
             do
             {
                 word = Generator.GenerateWord(wordToFind.Length);
-                Console.WriteLine(word);
+                Console.Write(word + " ");
                 i++;
             }
             while (word != wordToFind);
