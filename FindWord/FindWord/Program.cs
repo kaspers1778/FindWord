@@ -19,7 +19,7 @@ namespace FindWord
             do
             {
                 word = Generator.GenerateWord(wordToFind.Length);
-                Console.Write(word + " ");
+                Coloring.RandomColoredWrite(word + " ");
                 i++;
             }
             while (word != wordToFind);
