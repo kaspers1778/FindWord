@@ -14,14 +14,12 @@ namespace FindWord
             Console.Write("Enter the word to find : ");
             string wordToFind = Console.ReadLine();
 
-            
-
             string word;
             int i = 0;
             do
             {
                 word = Generator.GenerateWord(wordToFind.Length);
-                Console.WriteLine(word);
+                Console.Write(word + " ");
                 i++;
             }
             while (word != wordToFind);
