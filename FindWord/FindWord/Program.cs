@@ -15,8 +15,6 @@ namespace FindWord
             Console.Write("Enter the word to find : ");
             string wordToFind = Console.ReadLine();
 
-            
-
             string word;
             int i = 0;
             do
@@ -27,7 +25,7 @@ namespace FindWord
             }
             while (word != wordToFind);
 
-            Console.WriteLine("\n"+ i + "\n");
+            Console.WriteLine("\n" + i + "\n");
         }
     }
 }
