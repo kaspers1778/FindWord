@@ -8,8 +8,25 @@ namespace FindWord
 {
     class Program
     {
+
         static void Main(string[] args)
         {
+            Console.Write("Enter the word to find : ");
+            string wordToFind = Console.ReadLine();
+
+            
+
+            string word;
+            int i = 0;
+            do
+            {
+                word = Generator.GenerateWord(wordToFind.Length);
+                Console.WriteLine(word);
+                i++;
+            }
+            while (word != wordToFind);
+
+            Console.WriteLine("\n"+ i + "\n");
         }
     }
 }
