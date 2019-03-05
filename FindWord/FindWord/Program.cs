@@ -14,8 +14,6 @@ namespace FindWord
             Console.Write("Enter the word to find : ");
             string wordToFind = Console.ReadLine();
 
-            
-
             string word;
             int i = 0;
             do
