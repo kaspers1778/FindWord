@@ -10,6 +10,7 @@ namespace FindWord
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello Pete");
         }
     }
 }
