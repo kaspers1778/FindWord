@@ -8,12 +8,13 @@ namespace FindWord
 {
     class Program
     {
-        static Random rand = new Random();
 
         static void Main(string[] args)
         {
             Console.Write("Enter the word to find : ");
             string wordToFind = Console.ReadLine();
+
+            
 
             string word;
             int i = 0;
